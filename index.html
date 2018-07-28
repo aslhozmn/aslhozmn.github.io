@@ -225,11 +225,15 @@
 <div class="col-sm-6 col-md-3 col-lg-3 fm">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="projects/fm_demodulator/big%20pic.gif" title="Project description <br><br> 
-            Besides low-pass filters, other common types are high-pass (passes only high frequency signals), band-reject (blocks certain signals) and band-pass (rejects high and low frequencies, passing only signal areound some intermediate frequency).<br>
-            The simplest band-pass filter can be made by combining the first order low pass and high pass filters that we just looked at.
-            Simple Band Pass Filter with Op Amp shown in picture.<br>
-            This circuit will attenuate low frequencies (w<<1/R2C2) and high frequencies (w>>1/R1C1), but will pass intermediate frequencies with a gain of -R1/R2.  However, this circuit cannot be used to make a filter with a very narrow band.<br>
-            Band pass filter which is partof analog remote control car project was designed and the circuit was turned into a printed board circuit." rel="prettyPhoto">
+            This Project done within the scope of Electronic Laboratory 2 Course. The purpose of this project is learning to design
+aim specific circuitry both theoretically and practically. Also, making Printed Circuitry Board (PCB) design of the designed
+circuitry.
+During the project, I had designed a two different FM Demodulator – Band Bass Filter Circuitries which are the part of
+Analog Remote Controlled Car Project. The purpose of these BPF circuitries is to demodulate incoming signal to conclude
+which frequency are applied from the command. According to demodulated incoming signal frequency, the car is turning to
+the right or to the left. BPF circuitries were designed, Simulations and PCB designs of circuitries were done by using Proteus
+and required components were soldered on to PCB.
+At the end, required tests were made to control if the two different BPF circuitries works properly or not." rel="prettyPhoto">
               <div class="hover-text">
                 <h4>FM DEMODULATOR</h4></div>
               <img src="projects/fm_demodulator/foto.gif" class="img-responsive" alt="Fm Demodulator"> </a> </div>
@@ -238,8 +242,16 @@
 <div class="col-sm-6 col-md-3 col-lg-3 comm">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="projects/coomunication_system_design/big_pic.png" title="Project description <br><br>
-                In telecommunication, a communications system is a collection of individual communications networks, transmission systems, relay stations, tributary stations, and data terminal equipment (DTE) usually capable of interconnection and interoperation to form an integrated whole. The components of a communications system serve a common purpose, are technically compatible, use common procedures, respond to controls, and operate in union. Telecommunications is a method of communication (e.g., for sports broadcasting, mass media, journalism, etc.). A communications subsystem is a functional unit or operational assembly that is smaller than the larger assembly under consideration...<br>
-                An analog communication system working on a noisy channel was designed, simulated via MATLAB and examined the effect of channel noise on different modulation types.
+                This Project done within the scope of Communication Theory Laboratory 1 Course. The purpose of this project is learning
+to design and simulate an analog communication system operating on noisy channel and observing the effect of channel
+noise on different modulation types.
+During the project MATLAB was used for design and simulation of the system. An analog modulator is designed to
+produce different types of modulated signal such as Amplitude, Frequency, Double Side Band, Double Side Band Suppressed
+Carrier and Single Side Band modulation. After Randomly additive white Gaussian noise generated and applied to the
+modulated signal. At the same time, Analog demodulator such as Coherent, Envelope detector and Phase Locked Loop is
+designed to demodulate noisy signal to reproduce message signal.
+At the end, all modulation types are applied to the sample sound signal. After message signal is observed by applying
+proper demodulation type and effect of channel noise is analyzed.
                 " rel="prettyPhoto">
               <div class="hover-text">
                 <h4>COMMUNICATION SYSTEM DESIGN</h4></div>
@@ -249,8 +261,30 @@
 <div class="col-sm-6 col-md-3 col-lg-3 lang">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="projects/language_education_device/big_pic.png" title="Project description <br><br>
-                Despite all the reasons you’ve very likely heard about the benefits of learning another language – good for your degree, good for your travels, good for your career – some people seem to think that being multilingual isn’t all that important anymore. I will remind you that not only is it important, it may very well be necessary.<br>
-                That's why a language education device was designed and implemented by using Raspberry Pi 3, thermal printer, GSM Module, Touchscreen and Analog ınputs. This device allows for remote text update via FTP server, by choosingtouch and analog inputs it gives short English to Turkish story translation on different levels via thermal printer.
+                This Project was carried out during the internship period. The purpose of this project was to design a Language Education
+Device which was demanded by a Language School.
+I have played a role in all stages of this project from requirement analysis and determination phase to the prototype
+production phase. The main purpose of this device was to give user a translated English – Turkish text in 3 different levels. This
+different level texts can be chosen via analog buttons and also touch screen. Selected level texts given user via thermal printer.
+Translated texts can be updated remotely. Also, on the standby mode desired advertisement can be demonstrated via touch
+screen.
+We have used and learned the following hardware and software components to implement the device. Also, we have
+used Proteus to design circuitry of the System and make PCB design.
+ Raspberry Pi 3 and GPIOs
+ Touch Screen
+ Thermal Printer (UART)
+ SIM 900 GSM/GPS Module (UART)
+ FT 232 USB to UART Board
+ LM 2596 DC-DC Converter (x2)
+ Some kind of circuitry elements (Resistors,
+Capacitors, Analog Buttons, Diodes, Jumpers
+etc.)
+ Linux OS (Works on Raspberry)
+ Linux Commands
+ UART Communication
+ Qt cross-platform (C++)
+ QML
+ AT Commands (For GSM/GPS Module).
                 " rel="prettyPhoto">
               <div class="hover-text">
                 <h4>LANGBOX</h4></div>
@@ -260,13 +294,15 @@
 <div class="col-sm-6 col-md-3 col-lg-3 burg">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="projects/burglary_detection/big_pic.png" title="Project description <br><br>
-                Theft is one of the most important problems throughout the history of humanity. For this reason, humans tried to develop many devices to protect their valuable objects. By the way, we also aimed to design and assemble an anti-theft device. <br>
-                A device for theft detection was designed and implemented. MSP430 microcontroller was
-                communicated using the I2C and UART protocol with the Thermal sensor and Bluetooth
-                module respectively. The temperature change in the environment was continuously
-                monitored through the thermal sensor and it was determined whether there was a
-                person or not, and if the person was detected in the environment, a warning message
-                was sent to the mobile phone via Bluetooth module." rel="prettyPhoto">
+                This Project done within the scope of Embedded System Design Course. The purpose of this project is to design an
+Embedded System to detect burglary via Thermal Sensor. If any burglary activity detected, an alarm massage sent to the mobile
+phone via Bluetooth Module.
+During the project, MSP430-EXP430G2 microcontroller, OMRON D6T-44L-06 Thermal Sensor and HC-05 Bluetooth
+Module was used. Communication of Thermal Sensor and Bluetooth Module with Microcontroller done with 𝐼2𝐶 and 𝑈𝐴𝑅𝑇
+Communication protocol respectively.
+The temperature changes in the environment was continuously evaluated and it was determined that if there was any
+person in the field of view of thermal sensor or not. When any person was detected, a “Warning!!!” message sent to the mobile
+phone via Bluetooth." rel="prettyPhoto">
               <div class="hover-text">
                 <h4>HOME SECURITY SYSTEM</h4></div>
               <img src="projects/burglary_detection/foto.jpg" class="img-responsive" alt="Security Device"> </a> </div>
@@ -275,12 +311,13 @@
           
           <div class="col-sm-6 col-md-3 col-lg-3 piano">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="projects/piano/aprender-a-tocar-teclado-5.jpg" title="Within the scope of “ELE432 Advanced Digital Design” course semester project, a Digital
-Piano was designed and implemented. By using Altera DE1-SoC FPGA Development
-board, a note input taken via PS/2 keyboard. Appropriate frequency sound signal was
-generated with respect to input note via FPGA. Generated sound signal taken as an
-output via speaker and also pressed note position on the piano was visualized by VGA
-screen." rel="prettyPhoto">
+            <div class="hover-bg"> <a href="projects/piano/aprender-a-tocar-teclado-5.jpg" title="Project description <br><br> This Project done within the scope of Advanced Digital Design Course. The purpose of this project is to design a digital
+system that simulate a Piano with an FPGA, PS/2 Keyboard, VGA Screen and Speaker.
+During the project, ALTERA DE-1 SOC FPGA, HP PS/2 Keyboard, Philips VGA Screen and Logitech Speaker was used.
+Appropriate frequencies to generate sound signals were generated on FPGA. Basic Music notes were assigned to some keyboard
+buttons. And Piano buttons are simulated on VGA screen via VGA output of FPGA. When any note button pressed on the Keyboard,
+generated sound signal with respect to note frequency outputted with Speaker output of FPGA. Also, pressed note are simulated
+on the VGA screen simultaneously." rel="prettyPhoto">
               <div class="hover-text">
                 <h4>DIGITAL PIANO</h4></div>
               <img src="projects/piano/17697.jpg" class="img-responsive" alt="digital piano"> </a> </div>
@@ -289,18 +326,26 @@ screen." rel="prettyPhoto">
           
 <div class="col-sm-6 col-md-3 col-lg-3 sleep">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="projects/sleep_apnea_detection/big_pic.jpg" title="Project description <br><br> Within the scope of the Graduation Project, a sleep test platform was designed and
-implemented in order to diagnose Sleep Apnea disease without patient intervention.
-Sleep interruption for at least 10 seconds during sleep is defined as sleep apnea. For this
-reason, it was aimed to detect the regions where the breathing was stopped by detectingthese temperature changes in the breath signal, assuming that the respiratory arrest
-would have a direct effect on the temperature change in the mouth region. The system
-was intended to be able to follow the breath during the sleeping period. For this
-purpose, a sleeping circle was designed so that the breath signal can be track weather
-patient’s position changes during sleep. The breath signal generated temperature
-changes on the surface of the sleeping circle. These temperature changes on the sleeping
-circle were continuously monitored and recorded via thermal sensors. By applying the
-Sleep Apnea detection algorithm developed to the recorded breath signals, it was
-determined whether the breath was interrupted during sleep." rel="prettyPhoto">
+            <div class="hover-bg"> <a href="projects/sleep_apnea_detection/big_pic.jpg" title="Project description <br><br> This is the Graduation Project my University Career. Sleep apnea is a common breathing disorder which is diagnosed by
+detecting short term pauses lasting minimum 10 seconds in breathing or decreased breath volume while sleeping. Sleep apnea is
+a leading cause of excessive daytime sleepiness and lack of concentration along with occasionally triggered cardiac events. The
+standard method to diagnose sleep apnea problem is to use polysomnography (PSG) device in sleep rooms of hospitals. This
+clinical routine is expensive and difficult since there are long queues to be waited for proper examination and requires attendance
+by an expert along with the patient to operate the system. It is also reported that the patients find this routine useless. Most of
+the time due to massive cable connections that cause uncomfortable conditions for deep sleep.
+The main purpose of this project is to detect the temperature variations observed from the mouth region of the head
+from the certain distance instead of using standard electrodes and other cables to record physiological signals which are useful
+for apnea diagnosis. The device that developed is able to monitor and process breathing activities indirectly around the mouth by
+using non-contact temperature measurement sensors which are directed to mouth. Then, processing the signals obtained by
+these sensors and detecting sleep apnea episodes.
+For this purpose, we designed a prototype system at the end of the project. This system consist of 5 Thermal Sensor and
+a Microcontroller. While sleeping, Thermal sensors were located around the human face by overlapping their field of views and
+creating a sleeping circle (gantry). By the way, even if the person changes position while sleeping, the system can continue to track
+sleeping activity.
+OMRON D6T-44L-06 Thermal sensor was used to record breathing temperature signals. Communication of Thermal
+sensor with Arduino Leonardo microcontroller done by using 𝐼2𝐶 Communication protocol. Received temperature signals are
+recorded and visualized via Java simultaneously on PC. After, Recorded signals were evaluated and developed Sleep Apnea
+detection algorithm applied by using MATLAB to conclude whether sleep apnea event occurred or not." rel="prettyPhoto">
               <div class="hover-text">
                 <h4>DETECTION OF SLEEP APNEA</h4></div>
               <img src="projects/sleep_apnea_detection/foto.jpg" class="img-responsive" alt="Distant Temperature Measurement for Detecting Sleep Apnea Episodes"> </a> </div>
