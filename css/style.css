@@ -220,7 +220,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	height: auto;
-	text-align:justify; /*kapak yazı konumu*/
+	text-align:center; /*kapak yazı konumu*/
 	color: #fff;
 	background: url(../img/ben/IMG_5553.JPG) no-repeat  center;
 	-webkit-background-size: cover;
@@ -229,6 +229,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
+    
 	padding: 100px 20px 50px;
     position: relative;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
@@ -242,21 +243,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 }
 /* About Section */
 #about {
-	padding: 10px 0;
+	padding: 0px 0px;
 	background: #f6f6f6;
 }
 #about .about-text {
 	margin-left: 10px;
     position:relative;
-    text-align:justify;
-}
+    text-align:justify}
 #about img {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 185px;
+	height: 185px;
 	display: inline-block;
-    margin-bottom: 20px;
-    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 #about sgn {
 	border-radius: 50%;
@@ -271,7 +272,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 }
 /* Skills Section */
 #skills {
-	padding:10px 0;
+	padding:0px 0;
     margin-bottom:0px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
 	background: rgb(107,77,168); /* Old browsers */
@@ -293,10 +294,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 #skills .skill h4 {
 	font-weight: 600;
 	color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .chart {
-    object-position: center;
+    object-position:center;
 	position:relative;
 	display:inline-block;
 	width: 140px;
@@ -320,7 +321,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 .percent:after {
 	content: '%';
 	margin-left: 0.1em;
-	font-size: .8em;
+	font-size: 1em;
 }
 /* Portfolio Section */
 #portfolio {
@@ -340,13 +341,13 @@ ol.type li {
 	display: inline-block;
 	margin-left: 10px;
 	text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 ol.type li a {
 	background: transparent;
 	border: 2px solid #526cbb;
 	color: #526cbb;
-	padding: 10px 20px;
+	padding: 10px 10px;
 }
 ol.type li a.active {
 	background: #526cbb;
@@ -413,7 +414,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 33% 0 0 0;
+	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
@@ -473,7 +474,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	color: #fff;
 	font-size: 20px;
 	font-weight: 400;
-	margin-left: 5px;
+	margin-left: px;
 	text-transform: uppercase;
 }
 .achievement-box span.count {
@@ -568,7 +569,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	width: 70px;
 	height: 70px;
 	margin-left: 0;
-    margin-top: 30px;
+    margin-top: 0px;
 	border: 10px solid #eee;
 	border-radius: 100%;
 	text-align: center;
@@ -597,7 +598,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 	border-left-width: 0;
 }
 .timeline>li:last-child {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 .timeline .timeline-heading h4 {
 	margin-top: 0;
@@ -627,7 +628,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
     margin-top: 0px
 }
 #contact .overlay {
-	padding: 00px 0 40px 0;
+	padding: 00px 0 0px 0;
     margin-top: 0px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
 	background: -moz-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* FF3.6-15 */
@@ -648,11 +649,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	color: #fff;
 }
 #contact form {
-	padding: 30px 0;
+	padding: 0 0;
 }
 #contact i.fa {
 	color: #fff;
-	margin-bottom: 10px;
+	margin-bottom: ;
 }
 #contact .text-danger {
 	color: #E87E04;
@@ -668,7 +669,7 @@ label {
 	display: block;
 	width: 100%;
 	padding: 6px 12px;
-	margin: 10px 0;
+	margin: 0 0;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #222;
@@ -701,18 +702,18 @@ color: #2c3e50;
 color: #2c3e50;
 }
 #contact .btn {
-	margin-top: 20px;
+	margin-top: 0px;
 }
 #contact .social {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 #contact .social ul li {
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 75px;
 }
 #contact .social i.fa {
 	font-size: 30px;
-	padding: 4px 5px;
+	padding: px px;
 	color: #fff;
 	transition: all 0.5s;
 }
@@ -723,10 +724,10 @@ color: #2c3e50;
 #footer {
 	background: #222;
 	color: #777;
-	padding: 25px 0 25px 0;
+	padding: 5px 0 5px 0;
 }
 #footer p {
-	font-size: 13px;
+	font-size: 10px;
 }
 #footer a {
 	color: #aaa;
@@ -765,7 +766,7 @@ header .intro-text {
 @media (max-width: 1024px) {
 #about img {
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 }
 .timeline:before {
